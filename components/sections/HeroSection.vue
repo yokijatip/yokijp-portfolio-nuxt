@@ -11,13 +11,21 @@
           Software Engineer &<br />
           Fullstack Developer
         </h1>
+
+        <!-- <div class="px-6 py-2 bg-white w-fit">
+          <p class="text-lg font-light text-base-dark">Yoki J Perkasa</p>
+        </div> -->
+
         <p class="text-lg text-primary">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, illum
-          animi rerum aut nihil repellendus dele
+          <span class="font-bold">Halo!</span> Saya
+          <span class="px-2 py-1 bg-white text-base-dark">Yoki J Perkasa</span>
+          punya keahlian khusus di pengembangan aplikasi mobile dan website,
+          menggabungkan pengetahuan teknis dan kreativitas untuk menciptakan
+          solusi digital yang berdampak.
         </p>
 
         <!-- CTA & Social -->
-        <div class="flex items-center gap-6 flex-wrap">
+        <div class="flex items-center gap-10 flex-wrap">
           <!-- View Projects Button -->
           <button
             class="w-28 h-28 rounded-full text-black bg-white font-semibold text-sm"
@@ -27,11 +35,26 @@
 
           <!-- Icons -->
           <div class="flex gap-4 text-white text-2xl">
-            <i class="lab la-dribbble"></i>
-            <i class="lab la-linkedin-in"></i>
-            <i class="lab la-facebook-f"></i>
-            <i class="lab la-instagram"></i>
-            <i class="lab la-twitter"></i>
+            <Icon
+              name="uil:linkedin"
+              class="hover:text-blue-400 transition-all duration-300 transform hover:-translate-y-1"
+            />
+            <Icon
+              name="uil:twitter"
+              class="hover:text-sky-400 transition-all duration-300 transform hover:-translate-y-1"
+            />
+            <Icon
+              name="uil:facebook-f"
+              class="hover:text-blue-600 transition-all duration-300 transform hover:-translate-y-1"
+            />
+            <Icon
+              name="uil:instagram"
+              class="hover:text-pink-500 transition-all duration-300 transform hover:-translate-y-1"
+            />
+            <Icon
+              name="uil:dribbble"
+              class="hover:text-pink-400 transition-all duration-300 transform hover:-translate-y-1"
+            />
           </div>
         </div>
       </div>
