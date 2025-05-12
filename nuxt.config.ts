@@ -1,11 +1,22 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-11-01',
+  ssr: false,
+  compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
   modules: [
-    '@nuxt/fonts',
-    '@nuxt/icon',
-    '@nuxt/image',
-    '@nuxtjs/tailwindcss'
-  ]
-})
+    "@nuxt/icon",
+    "@nuxt/image",
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/google-fonts",
+  ],
+  googleFonts: {
+    families: {
+      Garamond: [400],
+      // add Manrope Font 200 to 800
+      Manrope: [200, 300, 400, 500, 600, 700, 800],
+      Inter: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+      // Add Pinyon Script
+      "Pinyon Script": [400],
+    },
+  },
+});
