@@ -6,7 +6,7 @@
     <ProjectsSections />
     <CtaSection />
     <BlogSection />
-    <ClientsSection />
+    <ClientsSection />a
   </div>
 </template>
 
@@ -20,4 +20,21 @@ import BlogSection from "../components/sections/BlogSection.vue";
 import ClientsSection from "../components/sections/ClientsSection.vue";
 </script>
 
-<style></style>
+<style>
+/* Border Class */
+.bp {
+  border: 1px solid #f7f5ed;
+}
+.bb {
+  border: 1px solid #3b82f6;
+}
+.bg {
+  border: 1px solid #16a34a;
+}
+.br {
+  border: 1px solid #ef4444;
+}
+.by {
+  border: 1px solid #facc15;
+}
+</style>
