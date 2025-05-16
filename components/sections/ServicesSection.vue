@@ -7,28 +7,37 @@
       <!-- Grid Container Services -->
       <div class="flex flex-col md:grid md:grid-cols-3 gap-5 h-full">
         <ServiceCard>
+          <template #icon>
+            <Icon name="uil:analysis" class="text-2xl" />
+          </template>
           <template #number>01</template>
-          <template #title>Branding</template>
+          <template #title>Analysis</template>
           <template #description
-            >Unveil your brand's essence through a meticulous blend of imagery,
-            messaging, and strategy. Crafting identities that resonate and
-            endure.</template
+            >Menganalisa apa yang dibutuhkan anda, memahami kebutuhan anda
+            dengan baik, dan memberikan solusi yang tepat.</template
           >
         </ServiceCard>
         <ServiceCard>
+          <template #icon>
+            <Icon name="uil:palette" class="text-2xl" />
+          </template>
           <template #number>02</template>
           <template #title>UI Design</template>
           <template #description
-            >Designing experiences that captivate users from the first click.
-            Intuitive interfaces that lead to seamless interactions.</template
+            >Mendesain pengalaman yang memikat pengguna sejak klik pertama.
+            Antarmuka intuitif yang menghasilkan interaksi yang
+            lancar.</template
           >
         </ServiceCard>
         <ServiceCard>
+          <template #icon>
+            <Icon name="uil:code" class="text-2xl" />
+          </template>
           <template #number>03</template>
           <template #title>Development</template>
           <template #description>
-            Translating visions into dynamic digital solutions. From responsive
-            websites to interactive applications, driving innovation..
+            Membuat visi menjadi solusi digital yang dinamis. Dari situs web
+            responsif hingga aplikasi interaktif...
           </template>
         </ServiceCard>
       </div>
