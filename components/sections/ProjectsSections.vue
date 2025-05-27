@@ -9,7 +9,19 @@
 
       <div class="grid grid-cols-3 grid-rows-3 gap-4 by">
         <!-- Feliya Attendance -->
-        <div class="col-span-3 br">Feliya Attendance</div>
+        <div class="col-span-3 br">
+          <!-- Image -->
+          <div></div>
+
+          <!-- Title & Description -->
+          <div>
+            <!-- Title & Button View projects -->
+            <div class="flex justify-between">
+              <h2>Feliya Attendance App</h2>
+              <button>View Projects</button>
+            </div>
+          </div>
+        </div>
         <div class="row-start-2 br">Feliya Company Profile</div>
         <div class="row-start-2 br">Shelby Florist Bandung</div>
         <div class="row-span-2 row-start-2 br">Klik Sewa</div>
