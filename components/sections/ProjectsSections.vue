@@ -7,9 +7,9 @@
       <TitleSection> Projects </TitleSection>
       <!-- Title End -->
 
-      <div class="grid grid-cols-3 grid-rows-3 gap-12">
+      <div class="grid grid-cols-5 grid-rows-3 gap-12">
         <!-- Feliya Attendance -->
-        <div class="col-span-3 flex flex-col gap-6">
+        <div class="col-span-5 flex flex-col gap-6">
           <!-- Image -->
           <div>
             <img
@@ -115,10 +115,10 @@
             </div>
           </div>
         </div>
-        <div class="row-start-2 br">Feliya Company Profile</div>
-        <div class="row-start-2 br">Shelby Florist Bandung</div>
-        <div class="row-span-2 row-start-2 br">Klik Sewa</div>
-        <div class="col-span-2 br">Wedding Invitation Luxury</div>
+        <div className="col-span-3 row-start-2 br">2</div>
+        <div className="col-span-2 col-start-4 row-start-2 br">3</div>
+        <div className="col-span-2 row-start-3 br">4</div>
+        <div className="col-span-3 col-start-3 row-start-3 br">5</div>
       </div>
     </div>
   </div>
