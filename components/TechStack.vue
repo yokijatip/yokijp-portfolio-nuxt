@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="flex w-fit gap-3 py-1 px-3 bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-200 border border-gray-100"
+      class="flex w-fit gap-2 py-1 px-2 bg-transparent rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-200"
     >
       <!-- Icon Slot -->
       <div class="flex-shrink-0">
@@ -34,12 +34,12 @@ const props = defineProps({
   },
   textSize: {
     type: String,
-    default: "sm",
+    default: "xs",
     validator: (value) => ["xs", "sm", "base", "lg", "xl"].includes(value),
   },
   textColor: {
     type: String,
-    default: "base-dark",
+    default: "white",
   },
   variant: {
     type: String,
